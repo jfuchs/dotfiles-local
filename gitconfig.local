@@ -1,0 +1,11 @@
+[user]
+	name = Jonathan Fuchs
+	email = jfuchs@github.com
+[github]
+	user = jfuchs
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[pull]
+	rebase = false
