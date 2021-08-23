@@ -1,0 +1,11 @@
+
+#!/bin/bash
+
+if [[ $# != 1 ]]; then
+  echo "Usage: start <NAME>" >&2
+  exit 64
+fi
+
+git fetch origin
+git switch -c "jfuchs/$1" origin/main
+git push -u origin "jfuchs/$1"
